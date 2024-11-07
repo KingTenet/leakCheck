@@ -1,0 +1,27 @@
+{
+  "name": "password-leak-check",
+  "version": "1.0.0",
+  "description": "CLI tool to check if a password has been exposed in data breaches",
+  "main": "index.js",
+  "bin": {
+    "check-password": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "security",
+    "password",
+    "cli",
+    "haveibeenpwned"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "crypto": "^1.0.1",
+    "inquirer": "^8.2.5",
+    "node-fetch": "^2.7.0",
+    "ora": "^5.4.1"
+  }
+}
